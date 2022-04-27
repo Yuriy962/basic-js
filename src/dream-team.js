@@ -14,7 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function createDreamTeam(members) {
-  members.forEach(item => {
+  members.forEach((item) => {
     if(typeof item !== 'string'){
       return false;
     }
